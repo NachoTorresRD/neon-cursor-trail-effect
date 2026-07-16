@@ -1,1 +1,69 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Neon Cursor Trail Effect — Estela de cursor optimizada</title><meta name="description" content="Estela luminosa en canvas con intensidad configurable, rendimiento optimizado y desactivación táctil."><link rel="canonical" href="https://neon-cursor-trail-effect.netlify.app/"><meta property="og:title" content="Neon Cursor Trail Effect"><meta property="og:description" content="Estela de cursor optimizada con Canvas."><meta property="og:image" content="https://neon-cursor-trail-effect.netlify.app/assets/og-image.svg"><meta property="og:type" content="website"><meta property="og:url" content="https://neon-cursor-trail-effect.netlify.app/"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Neon Cursor Trail Effect"><meta name="twitter:description" content="Estela de cursor optimizada con Canvas."><meta name="twitter:image" content="https://neon-cursor-trail-effect.netlify.app/assets/og-image.svg"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head><body><a class="skip" href="#demo">Saltar a la demo</a><canvas id="trail" aria-hidden="true"></canvas><header><a href="https://github.com/NachoTorresRD" target="_blank" rel="noreferrer"><b>NT</b> Canvas Lab</a><span>08 / 10</span></header><main><section class="hero" id="demo"><p>60 FPS / Canvas único</p><h1>Tu cursor deja una <em>señal.</em></h1><span>Mueve el puntero por la pantalla. La estela reutiliza un conjunto limitado de partículas y se apaga en dispositivos táctiles o con movimiento reducido.</span><div class="target" aria-hidden="true"><i></i><i></i><i></i><b>MOVE</b></div><div class="control"><label for="intensity">Intensidad</label><select id="intensity"><option value="low">Suave</option><option value="medium" selected>Media</option><option value="high">Intensa</option></select><button id="clear" type="button">Limpiar estela</button><p id="availability" role="status">Mueve el cursor para comenzar.</p></div></section><section class="actions"><a class="primary" href="https://github.com/NachoTorresRD/neon-cursor-trail-effect" target="_blank" rel="noreferrer">Ver código en GitHub ↗</a><a href="https://wa.me/18093408435?text=Hola%20Nacho,%20vi%20el%20efecto%20Neon%20Cursor%20Trail%20Effect%20y%20me%20gustar%C3%ADa%20usarlo%20en%20mi%20p%C3%A1gina." target="_blank" rel="noreferrer">Quiero este efecto en mi página</a></section></main><footer><p>Built with <a href="https://github.com/NachoTorresRD/nt-skill-supreme" target="_blank" rel="noreferrer">NT-SKILL SUPREME</a> by Nacho Torres</p><a href="https://www.ntdesweb.com" target="_blank" rel="noreferrer">NTDESWEB</a></footer></body></html>
+﻿<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Neon Cursor Trail Effect — Estela de cursor optimizada</title>
+<meta name="description" content="Estela luminosa en canvas con intensidad configurable, rendimiento optimizado y desactivación táctil.">
+<link rel="canonical" href="https://neon-cursor-trail-effect.netlify.app/">
+<meta property="og:title" content="Neon Cursor Trail Effect">
+<meta property="og:description" content="Estela de cursor optimizada con Canvas.">
+<meta property="og:image" content="https://neon-cursor-trail-effect.netlify.app/assets/og-image.svg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://neon-cursor-trail-effect.netlify.app/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Neon Cursor Trail Effect">
+<meta name="twitter:description" content="Estela de cursor optimizada con Canvas.">
+<meta name="twitter:image" content="https://neon-cursor-trail-effect.netlify.app/assets/og-image.svg">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="capture.css">
+<script src="script.js" defer>
+</script>
+</head>
+<body>
+<a class="skip" href="#demo">Saltar a la demo</a>
+<canvas id="trail" aria-hidden="true">
+</canvas>
+<header>
+<a href="https://github.com/NachoTorresRD" target="_blank" rel="noreferrer">
+<b>NT</b> Canvas Lab</a>
+<span>08 / 10</span>
+</header>
+<main>
+<section class="hero" id="demo">
+<p>60 FPS / Canvas único</p>
+<h1>Dibuja luz con <em>cada movimiento.</em>
+</h1>
+<span>Mueve el cursor y convierte el espacio en una estela reactiva de partículas.</span>
+<div class="target" aria-hidden="true">
+<i>
+</i>
+<i>
+</i>
+<i>
+</i>
+<b>MOVE</b>
+</div>
+<div class="control">
+<label for="intensity">Intensidad</label>
+<select id="intensity">
+<option value="low">Suave</option>
+<option value="medium" selected>Media</option>
+<option value="high">Intensa</option>
+</select>
+<button id="clear" type="button">Limpiar estela</button>
+<p id="availability" role="status">Mueve el cursor para comenzar.</p>
+</div>
+</section>
+<section class="actions">
+<a class="primary" href="https://github.com/NachoTorresRD/neon-cursor-trail-effect" target="_blank" rel="noreferrer">Ver código ↗</a>
+<a href="https://wa.me/18093408435?text=Hola%20Nacho,%20vi%20el%20efecto%20Neon%20Cursor%20Trail%20Effect%20y%20me%20gustar%C3%ADa%20usarlo%20en%20mi%20p%C3%A1gina." target="_blank" rel="noreferrer">Usar este efecto</a>
+</section>
+</main>
+<footer>
+<p>Built with <a href="https://github.com/NachoTorresRD/nt-skill-supreme" target="_blank" rel="noreferrer">NT-SKILL SUPREME</a> by Nacho Torres</p>
+<a href="https://www.ntdesweb.com" target="_blank" rel="noreferrer">NTDESWEB</a>
+</footer>
+</body>
+</html>

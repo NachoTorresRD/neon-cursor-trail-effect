@@ -10,6 +10,8 @@ Estela luminosa de cursor dibujada en un único canvas, con intensidad configura
 - Intensidad suave, media o intensa.
 - Conjunto acotado de partículas, sin nodos DOM permanentes.
 - Desactivación automática en touch y movimiento reducido.
+- Escenario, selector y CTA dentro de una sola pantalla.
+- Composición en tres capas: superficie, estela y contenido legible.
 
 ## Demo en vivo
 
@@ -21,7 +23,7 @@ Clona el repositorio, entra en `neon-cursor-trail-effect` y abre `index.html`.
 
 ## Estructura del proyecto
 
-Canvas y controles en `index.html`, presentación en `style.css`, render en `script.js` y recursos en `assets/`.
+Canvas y controles en `index.html`, presentación en `style.css`, capas de captura en `capture.css`, render en `script.js` y recursos en `assets/`.
 
 ## Cómo personalizarlo
 

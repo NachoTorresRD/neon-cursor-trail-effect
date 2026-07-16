@@ -10,6 +10,8 @@ A luminous cursor trail drawn on one canvas, with adjustable intensity and a bou
 - Low, medium, or high intensity.
 - Bounded particles with no permanent DOM nodes.
 - Automatic disablement on touch and reduced motion.
+- Stage, selector, and CTA inside a single viewport.
+- Three-layer composition: surface, visible trail, and readable content.
 
 ## Live demo
 
@@ -21,7 +23,7 @@ Clone the repository, enter `neon-cursor-trail-effect`, and open `index.html`.
 
 ## Project structure
 
-Canvas and controls in `index.html`, presentation in `style.css`, rendering in `script.js`, and assets in `assets/`.
+Canvas and controls in `index.html`, presentation in `style.css`, capture layers in `capture.css`, rendering in `script.js`, and assets in `assets/`.
 
 ## Customization
 
