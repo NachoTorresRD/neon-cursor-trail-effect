@@ -15,7 +15,7 @@ A luminous cursor trail drawn on one canvas, with adjustable intensity and a bou
 
 ## Live demo
 
-[neon-cursor-trail-effect.netlify.app](https://neon-cursor-trail-effect.netlify.app)
+[neonfx.ntdesweb.dev](https://neonfx.ntdesweb.dev/)
 
 ## Installation
 

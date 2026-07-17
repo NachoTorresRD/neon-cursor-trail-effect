@@ -15,7 +15,7 @@ Estela luminosa de cursor dibujada en un único canvas, con intensidad configura
 
 ## Demo en vivo
 
-[neon-cursor-trail-effect.netlify.app](https://neon-cursor-trail-effect.netlify.app)
+[neonfx.ntdesweb.dev](https://neonfx.ntdesweb.dev/)
 
 ## Instalación
 
