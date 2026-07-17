@@ -17,6 +17,12 @@ Estela luminosa de cursor dibujada en un único canvas, con intensidad configura
 
 [neon.ntdesweb.dev](https://neon.ntdesweb.dev/)
 
+## Más demos de efectos
+
+- [Animated Login Panel](https://login.ntdesweb.dev/)
+- [Floating Navbar](https://navbar.ntdesweb.dev/)
+- [Spotlight Card](https://spotlight.ntdesweb.dev/)
+
 ## Instalación
 
 Clona el repositorio, entra en `neon-cursor-trail-effect` y abre `index.html`.

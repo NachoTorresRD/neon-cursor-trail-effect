@@ -17,6 +17,12 @@ A luminous cursor trail drawn on one canvas, with adjustable intensity and a bou
 
 [neon.ntdesweb.dev](https://neon.ntdesweb.dev/)
 
+## More effect demos
+
+- [Animated Login Panel](https://login.ntdesweb.dev/)
+- [Floating Navbar](https://navbar.ntdesweb.dev/)
+- [Spotlight Card](https://spotlight.ntdesweb.dev/)
+
 ## Installation
 
 Clone the repository, enter `neon-cursor-trail-effect`, and open `index.html`.
