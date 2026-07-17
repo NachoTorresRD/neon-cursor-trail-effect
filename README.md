@@ -15,7 +15,7 @@ Estela luminosa de cursor dibujada en un único canvas, con intensidad configura
 
 ## Demo en vivo
 
-[neonfx.ntdesweb.dev](https://neonfx.ntdesweb.dev/)
+[neon.ntdesweb.dev](https://neon.ntdesweb.dev/)
 
 ## Instalación
 

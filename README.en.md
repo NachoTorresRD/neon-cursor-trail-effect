@@ -15,7 +15,7 @@ A luminous cursor trail drawn on one canvas, with adjustable intensity and a bou
 
 ## Live demo
 
-[neonfx.ntdesweb.dev](https://neonfx.ntdesweb.dev/)
+[neon.ntdesweb.dev](https://neon.ntdesweb.dev/)
 
 ## Installation
 
